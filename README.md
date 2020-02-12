@@ -84,9 +84,9 @@ Open a terminal session and cd to project root directory and run the following:
     A total of 1 test files matched the specified pattern.
                                                                                                                                                                                                                                     
     Test Run Successful.
-    Total tests: 2
-        Passed: 2
-    Total time: 1.0038 Seconds
+    Total tests: 5
+        Passed: 5
+    Total time: 2.0211 Seconds
 ```
 
 #### Clean-up Containers
