@@ -17,6 +17,5 @@ services:
       - postgres-data:/var/lib/postgres/data
     environment: 
       - POSTGRES_PASSWORD=password
-
-volumes:
+volumes: 
   postgres-data:

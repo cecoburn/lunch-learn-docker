@@ -89,6 +89,31 @@ Open a terminal session and cd to project root directory and run the following:
     Total time: 2.0211 Seconds
 ```
 
+
+#### Run Interactively
+```
+> docker run -it -v ${PWD}:/code mcr.microsoft.com/dotnet/core/sdk
+
+root@62d4b5b43342:/# 
+
+> dotnet test code/test/test.csproj
+
+Test run for /code/test/bin/Debug/netcoreapp3.0/test.dll(.NETCoreApp,Version=v3.0)
+Microsoft (R) Test Execution Command Line Tool Version 16.3.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+
+A total of 1 test files matched the specified pattern.
+                                                                                                                                                                                   
+Test Run Successful.
+Total tests: 5
+     Passed: 5
+Total time: 1.5846 Seconds
+
+> exit
+```
+
 #### Clean-up Containers
 ```sh
     > docker rm /d629847a5e50

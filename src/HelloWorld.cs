@@ -12,22 +12,22 @@ namespace myapp
             return true;
         }
 
-        public static double Add(double a, double b)
+        public static decimal Add(decimal a, decimal b)
         {
             return a + b;
         }
 
-        public static double Subtract(double a, double b)
+        public static decimal Subtract(decimal a, decimal b)
         {
             return a - b;
         }
 
-        public static double Multiply(double a, double b)
+        public static decimal Multiply(decimal a, decimal b)
         {
             return a * b;
         }
 
-        public static double Divide(double a, double b)
+        public static decimal Divide(decimal a, decimal b)
         {
             return a / b;
         }
